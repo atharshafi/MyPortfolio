@@ -47,7 +47,7 @@ function Portfolio() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/MyPortfolio">
       <Routes>
         <Route path="/" element={<Portfolio />} />
         <Route path="/resume" element={<ResumePage />} />
